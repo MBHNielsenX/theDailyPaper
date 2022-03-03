@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B.T testside</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    .header h1{
+        text-align: center;
+        font-size: 40px;
+        color: red;
+    }
+    .navbar{
+        overflow: hidden;
+        background-color: dimgrey;
+    }
+    .navbar a{
+
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .left-side {
+        -ms-flex: 10%;
+        flex: 10%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    .main {
+        -ms-flex: 80%; /* IE10 */
+        flex: 80%;
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .main h2{
+        font-size: 80px;
+    }
+    .main h5{
+        font-size: 20px;
+    }
+    .right-side{
+        -ms-flex: 10%; /* IE10 */
+        flex: 10%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+    .image {
+        box-sizing: content-box;
+        width: auto;
+        padding: 20px;
+    }
+    .add-block {
+        box-sizing: content-box;
+        background-color: red;
+        width: auto;
+        padding: 20px;
+    }
+    .add-block a{
+        display: block;
+        font-size: 160px;
+        color: #f1f1f1;
+        text-decoration: none;
+    }
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+
+
+</style>
+<body>
+
+<div class="header">
+    <h1> B.T. </h1>
+</div>
+<div class="navbar">
+
+
+
+    <a href="#">NYHEDER</a>
+    <a href="#">SPORT</a>
+    <a href="#">UNDERHOLDNING</a>
+</div>
+
+<div class="row">
+    <div class="left-side"></div>
+
+    <div class="main">
+        <div class="image" style="height:auto; background-color: #aaa;">
+            <h2>Justin Bieber on a boat</h2>
+            <h5>Bieber boating with babes, juni 12, 2019</h5>
+            <input type="image" src="https://media1.popsugar-assets.com/files/thumbor/NXTrtx3gg1gnSdiWRE9dxWtaf2g/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-:watermark-!popsugar-watermark_2x.png,-5,-5,0!-/2016/07/06/737/n/1922398/83ef8d8cffbfa28d_FFN_Bieber_Justin_VEM_070516_52113490/i/Justin-Bieber-Miami-Pictures-July-2016.jpg" alt="Bieber on a boat" width="1200" height="auto" >
+        </div>
+        <br>
+        <div class="add-block">
+            <a href="#">Har 'sladret':</a>
+            <a href="#">Nu bandlyst</a>
+            <a href="#">for altid</a>
+        </div>
+        <br>
+        <div class="kræft">
+            <div class="block">SPONSORERET INDHOLD</div>
+
+        </div>
+    </div>
+
+    <div class="right-side"></div>
+
+</div>
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
